@@ -20,7 +20,7 @@
 	}
 	function mysql_result($var,$row){
 		$var->data_seek($row);
-	    return $var->fetch_array(); 
+		return $var->fetch_array(); 
 	}
 	// Fin: Mapeo de mysql a mysqli por depreciación	
 ?>
